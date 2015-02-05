@@ -1,10 +1,21 @@
 package org.Week2;
 
+import java.util.*;
+
 public class Cart {
 
+	protected Collection<CartItem> cartitems;
+	
+
 	public Cart() {
-		// TODO - implement Cart.Cart
-		throw new UnsupportedOperationException();
+
+		for (int i = 0; i < 100; i++){
+			
+			cartitems.add(new CartItem(i, i, i);			
+			
+
+		}
+
 	}
 
 }
